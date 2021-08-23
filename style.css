@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-color: aqua;
+    height: 70vh;
+    min-height: 600px;
+    background-image: url('https://i.ibb.co/HNvHSyV/image-header.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+}
+.menu span{
+    margin-right:30px ;
+    cursor: pointer;
+}
+.contact{
+    background-color: white;
+    color:black;
+    border-radius: 20px  ;
+    padding: 8px 30px;
+    transition: 0.25s all ease-in-out;
+    cursor: pointer;
+}
+.contact:hover {
+    background: #eee;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+    color:white;
+    flex-grow: 1;
+}
+.arrow{
+    margin-top:60px;
+}
+.section1{
+    display: flex;
+    height:350px;
+}
+
+.section1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1 .left{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.left h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.left .button{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: black;
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+.left img{
+    width: 150px;
+}
+
+.left p{
+    color:#848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.section1 .text-container{
+    width: 70%;
+}
+
+.left, .right{
+    flex: 1;
+}
+
+.section2 {
+    display: flex;
+    height:350px;
+}
+
+.section2 img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.section2 .text-container2{
+    width: 70%;
+}
+
+.right1 p{
+    color:#848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.right1 .button{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: black;
+}
+
+.right1 h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.left1, .right1{
+    flex:1;
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+.section2 .right1{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 70px;
+}
+.section2 .left1{
+    display: flex;
+}
+
+.section3 {
+    display: flex;
+    height:350px;
+}
+
+.left2 img , .right2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left2 , .right2{
+    flex: 1;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffbf8;
+}
+
+.section4 h1{
+    color:#a8a1a2;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.clients{
+    justify-content: space-between;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+.clients .client, .client2 , .client3{
+    display: flex;
+    object-fit: cover;
+    flex-direction: column;
+    flex: 0.3;
+    justify-content: center;
+    align-items: center;
+}
+.client p ,.client2 p , .client3 p{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.client2 p{
+    font-size: 15px;
+}
+
+.clients .details{
+    text-align: center;
+}
+
+.clients h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.clients h4{
+    margin-top: 9px;
+    margin-bottom: 8px;
+    color: #848390;
+}
+
+.examples{
+    display: flex;
+}
+
+.examples img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.examples div{
+    flex: 0.25;
+}
+
+.footer{
+    background-color: aquamarine;
+   padding-bottom: 80px;
+   padding-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .logo{
+    margin-top: 50px;
+}
+
+.footer .navigation{
+    color:#4f9485;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.navigation span{
+    word-spacing: 10px;
+    padding: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.navigation span:hover{
+    color:#207465;
+}
+
+.footer .icons{
+    margin-top: 40px;
+}
+
+.icons icon{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
